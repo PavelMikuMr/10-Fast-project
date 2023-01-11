@@ -4,12 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Title</title>
+    <title>Recipes App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link href="style.css" rel="stylesheet" />
-    <h1>Description</h1>
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
   </head>
   <body>
-    <h1>hello poppers</h1>
+    <div class="mobile-container">
+      <header class="fxc">
+        <input type="text" />
+        <button id="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </header>
+      <div class="fav-container">
+        <h3>Favorite Meals</h3>
+        <ul class="fav-meals fx" id="fav-meals">
+          <!-- <li>
+            <img
+              src="https://www.themealdb.com/images/ingredients/Lime.png"
+              alt=""
+            />
+            <span>Lime</span>
+          </li>
+          <li>
+            <img
+            src="https://www.themealdb.com//images/media/meals/llcbn01574260722.jpg/preview"
+            alul"" />
+            <span>Carbonara</span>
+          </li>
+          <li>
+            <img
+              src="https://www.themealdb.com/images/media/meals/yxsurp1511304301.jpg"
+              alt=""
+            />
+            <span id="Curry">Curry</span>
+          </li> -->
+        </ul>
+      </div>
+      <div class="meals" id="meals"></div>
+    </div>
   </body>
 </html>
