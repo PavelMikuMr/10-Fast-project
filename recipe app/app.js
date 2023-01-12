@@ -12,7 +12,6 @@ async function getRandomMeal() {
 
   addMeal(randomMeal, true)
 }
-
 async function getMealById(id) {
   const resp = await fetch(
     'https://www.themealdb.com/api/json/v1/1/lookup.php?i=' + id
