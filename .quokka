@@ -1,8 +1,0 @@
-{
-  "plugins": [
-    "jsdom-quokka-plugin"
-  ],
-  "jsdom": {
-    "file": "./github-profiles/em.html"
-  }
-}

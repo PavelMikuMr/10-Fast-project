@@ -1,14 +1,14 @@
 const quizData = [
   {
-    question: 'How young is your friend?',
-    a: '15',
-    b: '24',
-    c: '56',
-    d: '77',
+    question: 'How are you?',
+    a: `I'm fine`,
+    b: 'Good',
+    c: 'Pretty good! ',
+    d: 'Fack Off!',
     correct: 'c',
   },
   {
-    question: 'Which programming language was the most in-demand in 2020?',
+    question: 'Which programming language was the most in-demand in 2022?',
     a: 'Java',
     b: 'JavaScript',
     c: 'Python',

@@ -20,6 +20,7 @@ body {
   background: linear-gradient(to right, #e9e4f0, #d3cce3);
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   min-height: 100vh;
 }
@@ -31,6 +32,8 @@ body::-webkit-scrollbar-track {
 }
 body::-webkit-scrollbar-thumb {
   background: #a7753c;
+}
+.recipe-title {
 }
 .mobile-container {
   width: 400px;

@@ -57,6 +57,9 @@ body {
   font-size: 1.5rem;
   padding: 1rem;
 }
+.filter {
+  cursor: pointer;
+}
 .pw button {
   background: #1f1f1f;
   border-radius: 3px;
@@ -96,4 +99,8 @@ body {
   width: 100%;
   border: none;
   padding: 1rem;
+  cursor: pointer;
+}
+.copy {
+  cursor: pointer;
 }
