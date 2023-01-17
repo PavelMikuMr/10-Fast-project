@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+.fx {
+  display: flex;
+}
+.fxc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #d3cce3;
+  background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3);
+  background: linear-gradient(to right, #e9e4f0, #d3cce3);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+body::-webkit-scrollbar {
+  width: 0.15rem;
+}
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+  background: #a7753c;
+}
+.recipe-title {
+}
+.mobile-container {
+  width: 400px;
+  background-color: white;
+  box-shadow: 0 0 5px 2px #3333331a;
+  border-radius: 5px;
+  overflow: hidden;
+  /* height: 80vh; */
+}
+
+img {
+  max-width: 100%;
+}
+header {
+  padding: 1rem;
+}
+header input {
+  background-color: #efefef;
+  border-radius: 5px;
+  /* outline: none; */
+  border: none;
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+}
+
+header button {
+  background-color: transparent;
+  color: #aaa;
+  /* outline: none; */
+  border: none;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+.fav-container {
+  padding: 0.25rem 1rem;
+  text-align: center;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+.fav-meals {
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  gap: 0 1rem;
+}
+.fav-meals li {
+  position: relative;
+  /* margin: 5px; */
+}
+.fav-meals li .clear {
+  background-color: transparent;
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  color: black;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+.fav-meals li .clear:hover {
+  opacity: 1;
+}
+
+.fav-meals li img {
+  border: 2px solid #ffffff9a;
+  box-shadow: 0 0 10px 7px #3333331a;
+  border-radius: 50%;
+  object-fit: cover;
+  height: 75px;
+  width: 75px;
+}
+.fav-meals span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 75px;
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.meal {
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px #3333331a;
+  margin: 10px;
+}
+
+.meal-header {
+  position: relative;
+}
+.meal-header .random {
+  position: absolute;
+  top: 1rem;
+  background-color: white;
+  padding: 0.25rem 0.5rem;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.meal-header img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.meal-body {
+  justify-content: space-between;
+  padding: 1rem;
+}
+.meal-body h4 {
+  margin: 0;
+}
+.meal-body .fav-btn {
+  background: transparent;
+  border: none;
+  gap: 0.3rem;
+}
+.meal-body button i {
+  cursor: pointer;
+  font-size: 1rem;
+  color: #ffbf33;
+}
+
+.meal-body button i:last-child {
+  color: #ccc;
+}
+.meal-body .fav-btn .active {
+  color: #ffbf33;
+}

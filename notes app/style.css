@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #7bdaf3;
+  min-height: 100vh;
+  /* display: grid;
+  place-items: center; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem 1rem;
+}
+
+.add {
+  align-self: flex-start;
+  background: linear-gradient(to right, #f2994a, #f2c94c);
+  font-family: inherit;
+  font-weight: 600;
+  color: black;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.884);
+  border-radius: 10px;
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  position: fixed;
+  top: 1rem;
+  right: 2rem;
+  transition: 0.1s all ease;
+}
+.add:hover {
+  top: 0.9rem;
+}
+.note {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  outline: none;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  margin: 10px;
+}
+
+button .fa-edit {
+  background: transparent;
+  border: none;
+}
+
+.note .tools {
+  background: linear-gradient(to right, #614385, #516395);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.note .number {
+  width: 30px;
+  height: 100%;
+  background: linear-gradient(to right, #f2994a, #f2c94c);
+  border: 1px solid rgba(255, 255, 255, 0.884);
+  border-radius: 50%;
+  text-align: center;
+  color: black;
+  font-family: inherit;
+}
+
+.note .tools button {
+  background: transparent;
+  border: none;
+  color: #000000;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.note .main {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  background-color: white;
+}
+.note textarea {
+  border: none;
+  width: 100%;
+  height: 400px;
+  outline: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+  padding: 0;
+}
+
+.note .hidden {
+  display: none;
+}
